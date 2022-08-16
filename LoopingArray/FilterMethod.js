@@ -4,7 +4,7 @@ import scripts from "../SCRIPTS";
  *
  * @param {*} array
  * @param {*} test
- * filter methd filter out element that do not pass the test
+ * filter methd filters out element that do not pass the test
  * and build up a new array with only those who passed the test
  */
 function filtering(array, test) {
