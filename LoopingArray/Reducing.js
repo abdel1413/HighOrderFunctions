@@ -32,6 +32,7 @@ console.log(reduce(array, (a, b) => a + b, 2)); // 2+1+2+3+4 = 12
 //reducer funct and
 //the second call uses this to find the largest script
 //by repeatedly comparing two scripts and returning the largest
+
 function counteChar(script) {
   return script.ranges.reduce((count, [from, to]) => {
     return count + (to - from);

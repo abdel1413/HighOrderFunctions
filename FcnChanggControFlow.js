@@ -4,6 +4,11 @@ function unless(test, then) {
   }
 }
 
+function repeat(num, action) {
+  for (let i = 0; i < num; i++) {
+    action(i);
+  }
+}
 repeat(5, (n) => {
   //output number only if it fails the test
   // 0%2 !=1  so print  0
