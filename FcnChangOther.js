@@ -10,7 +10,9 @@ function FcnChangOther(f){
     }
 }
 
-FcnChangOther(Math.min)(3,2,1)
+FcnChangOther(Math.min)(3, 2, 1)
+let n = FcnChangOther(Math.min);
+n(3,2,1)
 
 
 function testing(n, thisTest){
@@ -21,4 +23,5 @@ function testing(n, thisTest){
 
 testing(5, console.log)
 let b =[]
-testing(4,i=>{b.push(`ssss ${i + 1}`)})
+testing(4, i => { b.push(`ssss ${i + 1}`) })
+console.log(b)
