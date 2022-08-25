@@ -8,20 +8,19 @@ function otherFunction(x) {
 
 console.log(firstFunction(5, otherFunction)); // => -5
 
-
 function combine(num, InsideCombine) {
-   let tempo;
+  let tempo;
   for (let i = 0; i < num; i++) {
-   tempo =  InsideCombine(i);
+    tempo = InsideCombine(i);
   }
-    return tempo
+  return tempo;
 }
 
 function functionInsideCombine(x) {
-  return x + 2,  ;
+  return x + 2;
 
-  // 1 + 2,  =3                        
-  // 2 + 2 = 4     
+  // 1 + 2,  =3
+  // 2 + 2 = 4
   // 3+2 = 5
   // 4 + 2 = 6
 }
